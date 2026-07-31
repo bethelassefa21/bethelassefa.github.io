@@ -1,96 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bethel Assefa | Mechanical Engineering Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f4f6f8;
-            color: #333;
-        }
-        header {
-            background: #0a66c2;
-            color: white;
-            padding: 40px 20px;
-            text-align: center;
-        }
-        section {
-            max-width: 900px;
-            margin: 30px auto;
-            background: white;
-            padding: 25px;
-            border-radius: 10px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        h1, h2 {
-            margin-top: 0;
-        }
-        .skills span {
-            display: inline-block;
-            background: #e8f0fe;
-            color: #0a66c2;
-            padding: 8px 12px;
-            margin: 5px;
-            border-radius: 20px;
-            font-size: 14px;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            color: #666;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Bethel Assefa | Mechanical Engineer</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.6;
+}
+
+nav{
+    background:#071e3d;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    margin:15px;
+    text-decoration:none;
+}
+
+.hero{
+    background:linear-gradient(135deg,#071e3d,#0a66c2);
+    color:white;
+    padding:80px 20px;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:45px;
+}
+
+.hero p{
+    font-size:20px;
+    margin:15px;
+}
+
+.button{
+    display:inline-block;
+    background:white;
+    color:#0a66c2;
+    padding:12px 25px;
+    margin:10px;
+    border-radius:25px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+section{
+    max-width:1000px;
+    margin:40px auto;
+    background:white;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#0a66c2;
+    margin-bottom:20px;
+}
+
+.project{
+    margin-bottom:25px;
+    padding:20px;
+    border-left:5px solid #0a66c2;
+    background:#f8fbff;
+}
+
+.skills span{
+    display:inline-block;
+    background:#e8f0fe;
+    color:#0a66c2;
+    padding:10px 15px;
+    margin:5px;
+    border-radius:20px;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    background:#071e3d;
+    color:white;
+}
+
+
+@media(max-width:600px){
+
+.hero h1{
+    font-size:32px;
+}
+
+section{
+    margin:20px;
+}
+
+}
+
+</style>
+
 </head>
+
+
 <body>
 
-<header>
-    <h1>Bethel Assefa</h1>
-    <p>Final-Year Mechanical Engineering Student</p>
-</header>
 
-<section>
-    <h2>About Me</h2>
-    <p>
-        I am a final-year Mechanical Engineering student at Addis Ababa University with hands-on experience in renewable energy systems, CAD modeling, CFD simulation, 3D printing, and composite manufacturing.
-    </p>
+<nav>
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</nav>
+
+
+<div class="hero">
+
+<h1>Bethel Assefa</h1>
+
+<p>
+Mechanical Engineering Student | Renewable Energy | CAD Design | Product Development
+</p>
+
+<a class="button" href="#">Download CV</a>
+
+<a class="button" href="https://github.com/bethelassefa">
+GitHub
+</a>
+
+</div>
+
+
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+I am a final-year Mechanical Engineering student at Addis Ababa University with a strong interest in renewable energy systems, mechanical design, simulation, and prototype development.
+
+My experience includes wind turbine blade design, CAD modeling, CFD analysis, 3D printing, and composite manufacturing.
+</p>
+
 </section>
 
-<section>
-    <h2>Projects</h2>
-    <ul>
-        <li><b>Small-Scale Wind Turbine Blade Design and Prototyping</b></li>
-        <li><b>Impact Testing Machine</b></li>
-        <li><b>Four-Jaw Chuck Design</b></li>
-        <li><b>Automated Hand Sanitizer Dispenser</b></li>
-    </ul>
+
+
+<section id="projects">
+
+<h2>Featured Projects</h2>
+
+
+<div class="project">
+
+<h3>🌬 Small-Scale Wind Turbine Blade Design and Manufacturing</h3>
+
+<p>
+Designed and manufactured a small-scale wind turbine blade using CAD modeling, aerodynamic analysis, 3D printed molds, and composite manufacturing techniques.
+
+<b>Tools:</b> SolidWorks, ANSYS Fluent, QBlade, Ultimaker Cura
+</p>
+
+</div>
+
+
+<div class="project">
+
+<h3>Impact Testing Machine</h3>
+
+<p>
+Designed a mechanical testing system for evaluating material impact performance.
+</p>
+
+</div>
+
+
+<div class="project">
+
+<h3>Four-Jaw Chuck Design</h3>
+
+<p>
+Developed a mechanical component design focusing on precision and manufacturing considerations.
+</p>
+
+</div>
+
+
+<div class="project">
+
+<h3>Automated Hand Sanitizer Dispenser</h3>
+
+<p>
+Designed an automated system integrating mechanical and electronic components.
+</p>
+
+</div>
+
+
 </section>
 
-<section>
-    <h2>Technical Skills</h2>
-    <div class="skills">
-        <span>SolidWorks</span>
-        <span>ANSYS Fluent</span>
-        <span>QBlade</span>
-        <span>MATLAB</span>
-        <span>3D Printing</span>
-        <span>Composite Manufacturing</span>
-        <span>CFD Analysis</span>
-    </div>
+
+
+<section id="skills">
+
+<h2>Technical Skills</h2>
+
+
+<div class="skills">
+
+<span>SolidWorks</span>
+<span>ANSYS Fluent</span>
+<span>QBlade</span>
+<span>MATLAB</span>
+<span>CAD Modeling</span>
+<span>CFD Analysis</span>
+<span>3D Printing</span>
+<span>Composite Manufacturing</span>
+
+</div>
+
 </section>
 
-<section>
-    <h2>Contact</h2>
-    <p>📧 bethelassefa815@gmail.com</p>
-    <p>📍 Addis Ababa, Ethiopia</p>
+
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>
+📧 bethelassefa815@gmail.com
+</p>
+
+<p>
+📍 Addis Ababa, Ethiopia
+</p>
+
+
 </section>
+
+
 
 <footer>
-    <p>© 2026 Bethel Assefa</p>
+
+© 2026 Bethel Assefa | Mechanical Engineering Portfolio
+
 </footer>
+
 
 </body>
 </html>
